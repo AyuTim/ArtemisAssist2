@@ -1,0 +1,43 @@
+export default [
+  {
+    title: 'Start detecting anomalies',
+    description: 'Start recording sounds around you to detect danger. Your emergency contacts will be notified if distress is detected!',
+    image: 'https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTon4554nrONabRjgHiXth-NMSnIk9UkwwX-kbSeR_9dyITiEps',
+    cta: 'Start recording!', 
+    horizontal: true,
+    actionData: 'serialWriter',
+  },
+  {
+    title: 'Call from AI',
+    description: 'Get a call from an AI agent to keep you company in the dark.',
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGIDy9vBq_JWZKiPzixIemYJNhtNIYG-49qiMCuH8rcB7nxMpn',
+    cta: 'Call Me',
+    actionType: 'function',
+    actionData: 'callFromAI',
+  },
+  {
+    title: 'Call your emergency contact',
+    description: 'An AI agent will call your emergency contact to inform them that you are in danger.',
+    image: 'https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTvkLpkA1JZsXHRpKkLrU3Sj44LXoxySARvGklVq-lrxziUiJiD',
+    cta: 'Call Emergency',
+    actionType: 'function',
+    actionData: 'callEmergencyContact',
+  },
+  {
+    title: 'Previous Recordings',
+    description: 'For evidence of danger, view your past recorded events captured by the camera.',
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSXAxDHSFI7cmEFLVnaxBEeDs9EJxy0LmpY0rBlSOWYUhhMhl9',
+    cta: 'View article', 
+    actionType: 'none',
+    actionData: 'viewRecordings',
+  },
+  {
+    title: 'Route to Home',
+    description: 'Start the GPS back home using this shortcut',
+    image: 'https://www.straightnorth.com/wp-content/uploads/2019/09/2021574014-1024x576.jpg',
+    cta: 'Google Maps', 
+    horizontal: true,
+    actionData: 'link',
+    actionType: 'https://www.google.com/maps/dir/32.9748714,-96.7601066/3000+Northside+Blvd,+Richardson,+TX+75080/@32.9846531,-96.7741886,14z/data=!3m1!4b1!4m10!4m9!1m1!4e1!1m5!1m1!1s0x864c22075fa8a2b1:0xadd2a14b8f8ef82e!2m2!1d-96.7497448!2d32.9937328!3e0?entry=ttu',
+  },
+];
