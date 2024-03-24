@@ -1,4 +1,6 @@
 Artemis Assist 
+This link has access to all of the data, github couldn't handle all the files: https://drive.google.com/drive/folders/1Iw4oDUXk-cL-bWrOlFsQw64NPEBi-g7c
+
 
 Artemis Assist is a wearable device, integrated with a mobile application to enforce the safety of women walking alone on campus at night. The sound sensor, attached to a necklace or hair clip, sleeps when not activated. Tapping the attached touch sensor activates the sound sensor, which records sounds and detects anomalies that may indicate a dangerous situation. Anomalies in the sound are detected using an ML algorithm. Furthermore, the device includes a wearable camera module with which if a danger is detected, it will begin recording surroundings to gather evidence in the event of a violent situation. Moreover, the app provides a function to have a conversation with a generative AI while walking in an unsafe area, reducing the risk of harm or victimization. All these functionalities can be monitored, and the camera footage can be accessed through the user-friendly mobile app. 
 
